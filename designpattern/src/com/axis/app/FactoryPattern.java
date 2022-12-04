@@ -12,7 +12,7 @@ public class FactoryPattern {
 		
 		ShapeFactory shapeFactory = new ShapeFactory();
 	    Shape shape=shapeFactory.getShape("circle");
-	  //  Shape s1 = new Rectangle();
+	  
 	   
 	    shape.draw();
 		
